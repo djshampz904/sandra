@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiambethu Farm</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 <header class="header">
-    <img src="img/Kiambethu.png" alt="Kiambethu" class="logo">
+    <img src="nlw-lawn-care/images/Kiambethu.png" alt="Kiambethu" class="logo">
     <nav class="navbar">
         <ul>
             <li><a href="/">Home</a></li>

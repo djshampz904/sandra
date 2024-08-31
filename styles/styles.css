@@ -16,7 +16,7 @@ body {
 .header {
     background-color: #fff;
     padding: 20px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -82,6 +82,7 @@ body {
     object-fit: cover;
     object-position: center;
 }
+
 .slideshow-button {
     position: absolute;
     top: 50%;
@@ -93,13 +94,21 @@ body {
     cursor: pointer;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 .content-wrapper {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .main-content h1 {
@@ -108,9 +117,57 @@ body {
     margin-bottom: 20px;
 }
 
+.main-content {
+    flex: 0 1 600px;
+    margin: 0 20px;
+}
+
 footer {
     flex-shrink: 0;
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px 0;
+}
+
+.metric-container {
+    flex: 1 0 45%; /* Adjust the width to fit 2 items per row */
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px; /* Add some margin for spacing */
+}
+
+
+.metric-container.large {
+    flex: 1 0 100%; /* Make this element take the full width */
+}
+
+.metric-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute the space more evenly */
+    max-width: 1200px; /* Limit the maximum width for better alignment */
+    margin: 0 auto; /* Center the content */
+}
+
+.metric-container i {
+    font-size: 48px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.metric-container .counter {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.metric-container p {
+    font-size: 16px;
+    color: #666;
 }
