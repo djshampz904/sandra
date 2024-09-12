@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="header">
-    <img src="nlw-lawn-care/images/Kiambethu.png" alt="Kiambethu" class="logo">
+    <img src="KIMBETHU/images/Kiambethu.png" alt="Kiambethu" class="logo">
     <nav class="navbar">
         <ul>
             <li><a href="/">Home</a></li>

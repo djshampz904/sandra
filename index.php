@@ -3,13 +3,13 @@
         <div class="slideshow-container">
             <div class="slideshow-wrapper">
                 <div class="slide">
-                    <img src="nlw-lawn-care/images/Kiambethu+Tea+Farm+-112.jpg" alt="Kiambethu Farm">
+                    <img src="KIMBETHU/images/Kiambethu+Tea+Farm+-112.jpg" alt="Kiambethu Farm">
                 </div>
                 <div class="slide">
-                    <img src="nlw-lawn-care/images/Kiambethu+Tea+Farm+-73.jpg" alt="Tea Plantation">
+                    <img src="KIMBETHU/images/Kiambethu+Tea+Farm+-73.jpg" alt="Tea Plantation">
                 </div>
                 <div class="slide">
-                    <img src="nlw-lawn-care/images/Kiambethu+Tea+Farm+-167.jpg" alt="Farm House">
+                    <img src="KIMBETHU/images/Kiambethu+Tea+Farm+-167.jpg" alt="Farm House">
                 </div>
             </div>
             <button class="slideshow-button prev">❮</button>
